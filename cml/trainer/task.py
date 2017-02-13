@@ -1,3 +1,9 @@
+"""cml implementation to train on CloudML.
+
+This sample reads the pre-processed data and its metadata features as generated
+by the CloudML SDK and exports a model that can be used for serving.
+"""
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
